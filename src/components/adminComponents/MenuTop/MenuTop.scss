@@ -1,0 +1,34 @@
+@import "../../../scss/index.scss";
+
+.menu-top {
+  display: flex;
+
+  button {
+    color: $font-light;
+
+    &:hover {
+      color: $primary-color;
+    }
+    &:focus,
+    &:active {
+      color: $font-light;
+    }
+  }
+
+  &_left {
+    &-logo {
+      width: 20px;
+      padding: 0 10px;
+    }
+  }
+
+  &_right {
+    position: absolute;
+    margin-right: 20px;
+    right: 0;
+
+    h3 {
+      color: white;
+    }
+  }
+}
